@@ -1,0 +1,15 @@
+Source: hello-world
+Section: utils
+Priority: optional
+Maintainer: Tyler Adams <tyler@blitzblitzblitz.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.6.0
+Homepage: https://github.com/tyleradams/hello-world
+Vcs-Browser: https://github.com/tyleradams/hello-world
+Vcs-Git: https://github.com/tyleradams/hello-world.git
+Rules-Requires-Root: no
+
+Package: hello-world
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Example repo to demonstrate publishing to apt
